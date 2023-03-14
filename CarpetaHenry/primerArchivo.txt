@@ -3,3 +3,7 @@ Javier Ponce Luna Pizarro
 Version 1.0
 
 Tarea Modulo 2
+
+Version 2.0
+
+Nuevo texto Nuevo Commit
