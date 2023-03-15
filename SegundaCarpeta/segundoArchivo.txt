@@ -3,3 +3,7 @@ Esta es una segunda prueba
 Etc, Etc
 
 Version 1.0
+
+Una nueva version de este texto
+
+Version 2.0
