@@ -15,3 +15,5 @@ var cajon;
 
 //Null
 var sinNada = null;
+
+console.log(cajon1);
