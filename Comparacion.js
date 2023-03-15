@@ -32,14 +32,18 @@ console.log(desigual);
 var numb = 3;
 var str = "3";
 
-console.log("===", numb === str);
-console.log("==", numb == str);
+console.log("3 === '3'", numb === str);
+console.log("3 == '3'", numb == str);
+console.log("3 === 3", numb === numb);
+console.log("'3' === '3'", str === str);
+console.log("3 == 3", numb == numb);
+console.log("'3' == '3'", str == str);
 
 //Asociatividad
 
     var a = 1;
     var b = 2;
-    var c = (a = b);
+    var c = a = b;
 
     console.log(a);
     console.log(b);
