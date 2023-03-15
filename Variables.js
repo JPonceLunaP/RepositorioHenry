@@ -33,15 +33,22 @@ console.log("Resta:", res);
 
     //Multiplicacion
 var mul = num1*num2;
-console.log(mul);
+console.log("Multiplicacion:", mul);
 
     //Division
 var div = num1/num2;
-console.log(div);
+console.log("Division:", div);
 
     //Modulo o resto
 var mod = num1%num2;
-console.log(mod);
+console.log("Modulo:", mod);
 
     //Precedencia de operadores
 console.log(3+2*5-8);
+
+    //Suma de strings
+var nombre = "Javier";
+var saludo = "Hola";
+var saludar = saludo + " " + nombre;
+
+console.log(saludar);
