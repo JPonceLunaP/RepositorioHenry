@@ -34,3 +34,10 @@ function prueba (x){
 }
 
 prueba(20);
+
+function Cuidado (cuid){
+    console.log(cuid);
+    return (cuid);
+}
+
+Cuidado("Camila");
