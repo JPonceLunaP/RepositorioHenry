@@ -75,7 +75,7 @@ console.log(palabraSeparada);
 var palabraArreglada = palabraSeparada.join("");
 console.log(palabraArreglada);
 
-// ForEach -- recorrer elementos por elementos sin realizar cambios
+// ForEach -- recorrer un arreglo, realizando una accion en cada elemento
 var Numers = [1,2,3,4];
 Numers.forEach((num) => console.log(num));
 
@@ -86,8 +86,11 @@ Numers.forEach((num) =>{
 });
 
 
-//Map -- recorrer elemento por elemento y crear una copia creando cambios
+//Map -- recorrer un arreglo, realizando una accion en cada elemento, 
+//       devolviendo un nuevo arreglo con los elementos modificados
 var masUno = Numers.map((num) => {
     return num+1;
 });
 console.log(masUno);
+
+
