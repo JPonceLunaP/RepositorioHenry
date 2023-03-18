@@ -61,3 +61,33 @@ var  mayorQueCinco = numeros.every((num) => {
     return num > 5;
 });
 console.log(mayorQueCinco);
+
+
+// Split y Join
+var palabra = "Henri";
+var palabraSeparada = palabra.split("");
+console.log(palabraSeparada);
+
+palabraSeparada.pop();
+palabraSeparada.push("y");
+console.log(palabraSeparada);
+
+var palabraArreglada = palabraSeparada.join("");
+console.log(palabraArreglada);
+
+// ForEach -- recorrer elementos por elementos sin realizar cambios
+var Numers = [1,2,3,4];
+Numers.forEach((num) => console.log(num));
+
+Numers.forEach((num) =>{
+    if (num===3){
+        console.log(num);
+    }
+});
+
+
+//Map -- recorrer elemento por elemento y crear una copia creando cambios
+var masUno = Numers.map((num) => {
+    return num+1;
+});
+console.log(masUno);
