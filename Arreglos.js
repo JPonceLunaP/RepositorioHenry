@@ -94,3 +94,42 @@ var masUno = Numers.map((num) => {
 console.log(masUno);
 
 
+// Bucles con arreglos
+// For
+
+var arr = [1,2,3,4,5];
+
+for(i = 0; i < arr.length; i++){
+    console.log(arr[i]);
+}
+
+function encontrarLetraP (string){
+    var letras = string.split("");
+
+    for (i = 0; i < letras.length; i++){
+        if(letras[i] == "p" || letras[i] == "P"){
+            console.log("si tiene la Letra P");
+        }
+    }
+}
+
+encontrarLetraP("Pepito");
+
+// While
+
+var boom = [];
+while(boom.length < 5){
+    boom.push("BOOM");
+}
+
+console.log(boom);
+
+
+//Bucle infinito;
+
+// var inf = [];
+// var n = 1;
+
+// while(n < 3){
+//     inf.push(Math.random());
+// }
