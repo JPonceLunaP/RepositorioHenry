@@ -39,3 +39,21 @@ var misFunciones = {
 };
 
 misFunciones.saludar();
+
+var atuendos = {manos: ["guantes", "anillos"], pies: ["zapatos", "soquetes"]};
+
+console.log(atuendos.manos);
+
+    // Otra notacion Bracket Notation
+
+atuendos["piernas"] = ["Bermudas", "Pantalones"];
+console.log(atuendos.piernas);
+
+var comidas = {};
+var diferenciaDeNotaciones = function(propUno, propDos) {
+    comidas[propUno] = ["Frutas", "Vegetales"],
+    comidas[propDos] = ["Hamburguesas", "Papas fritas"]
+};
+
+diferenciaDeNotaciones ("saludable", "noSaludable");
+console.log(comidas);
